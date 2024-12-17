@@ -6,9 +6,9 @@ import uuid
 import time
 from datetime import datetime
 
-openai.api_key = "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"
+openai.api_key = "--------------"
 # ID del asistente configurado previamente
-ASSISTANT_ID = "asst_KHN5OaDUdLlGUm8koxaukxKr"
+ASSISTANT_ID = "------------"
 
 api_bp = Blueprint("api", __name__)
 
