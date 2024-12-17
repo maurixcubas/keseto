@@ -56,7 +56,7 @@ def send_message(thread_id):
     # Ejecutar el asistente
     run = openai.beta.threads.runs.create(
         thread_id=thread.openai_thread_id,
-        assistant_id="asst_KHN5OaDUdLlGUm8koxaukxKr"
+        assistant_id="----------------"
     )
 
     # Esperar la respuesta del asistente
